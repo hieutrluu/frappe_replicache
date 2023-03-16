@@ -1,5 +1,8 @@
 import frappe
+from restipie.custom_api_core import request
+from restipie.custom_api_core import response
 
+@request("POST", "/v1/api/replicache_push")
 def handlePush(req, res):
     pass
 
